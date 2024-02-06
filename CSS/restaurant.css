@@ -65,6 +65,9 @@ p {
   Height: 21px;
   Top: -70px;
   Left:325px;
+  cursor: pointer;
+  transition: 0.8s ease-in;
+  opacity: 1;
 }
 
 /*ADD heart icon fade in colour - same as home page*/
@@ -218,4 +221,5 @@ margin-bottom: 17px;
   background: linear-gradient(180deg, #ff88de 0%, #a16be0 100%);
   opacity: 0;
 }
+
 

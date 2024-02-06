@@ -241,7 +241,7 @@ address {
   .fill-heart {
     position: relative;
     left: 20px;
-    transition: opacity 0.8s ease-in; /* Add transition for a smooth effect */
+    transition: opacity 0.8s ease-in; 
     opacity: 0;
   }
   
