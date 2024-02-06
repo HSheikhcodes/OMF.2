@@ -162,10 +162,13 @@ margin-bottom: 17px;
   padding: 15px;
 }
 
+/** transitions*/
+
 .card:hover .price,
-.card:hover .dish-info  {
+.card:hover  {
   transform: translateX(-23%);
 }
+
 
 .icon {
   display: flex;
