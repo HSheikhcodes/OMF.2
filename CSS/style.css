@@ -1,20 +1,14 @@
-/* Mobile First Styles */
-* body { 
-  margin: 0%;
-  height: 0;
-}
-
-  
-* /*************************************Applied to ALL CLASSES**********************************************/
-
+/*************************************Applied to ALL CLASSES**********************************************/
 /* Mobile First Styles */       
 
 * body 
 { 
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    margin: 0%;
-    padding: 0;
+  margin: 0%;
+  height: 0;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  margin: 0%;
+  padding: 0;
 }
 
 * body 
