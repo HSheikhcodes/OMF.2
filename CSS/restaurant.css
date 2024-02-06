@@ -162,8 +162,9 @@ margin-bottom: 17px;
   padding: 15px;
 }
 
-.card:hover .price {
-  transform: translateX(-21%);
+.card:hover .price,
+.card:hover .dish-info  {
+  transform: translateX(-23%);
 }
 
 .icon {
