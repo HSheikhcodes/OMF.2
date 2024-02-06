@@ -143,6 +143,7 @@ margin-bottom: 17px;
   align-items: flex-end;
   margin-top: -40px;
   width: 95%;
+  transition: transform 0.3s ease-in-out;
 }
 
 .tick {
@@ -159,6 +160,10 @@ margin-bottom: 17px;
   top: 0px;
   right: 0px; 
   padding: 15px;
+}
+
+.card:hover .price {
+  transform: translateX(-20%);
 }
 
 .icon {
