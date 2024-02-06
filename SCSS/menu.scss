@@ -1,0 +1,140 @@
+$color_1: black;
+$font-family_1: "Roboto", sans-serif;
+$font-family_2: 'Shrikhand', sans-serif;
+$background-color_1: #F6F6F6;
+$background-color_2: #f6f6f6;
+$background-color_3: #FFFFFF;
+$background-color_4: #99E2D0;
+
+/*Default should be Mobile */
+/* Adjust Media query desktops later ---- MUST BE DONE ACCURATELY! */
+body {
+	font-family: $font-family_1;
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+	color: $color_1;
+}
+.logo-header {
+	display: flex;
+	position: relative;
+	z-index: 1;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+	padding: 10px;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	width: 197px;
+	height: 36px;
+	padding-top: 14px;
+	padding-left: 89px;
+}
+.prev {
+	margin-right: 75px;
+	margin-left: -80px;
+}
+.image {
+	position: relative;
+	width: 375px;
+	height: 275px;
+	margin-bottom: -33px;
+	align-items: center;
+}
+.menu-container {
+	background-color: $background-color_1;
+	border-radius: 45px;
+	width: 375px;
+	height: 1307px;
+	margin-top: -4rem;
+	background-color: $background-color_2;
+	z-index: 1;
+	position: relative;
+	margin-inline-start: 5px;
+	padding-top: 5px;
+}
+.header {
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 40.82px;
+	font-style: italic;
+	font-family: $font-family_2;
+	margin-top: 0px;
+	justify-content: space-between;
+	margin-inline-start: 12px;
+	>h1 {
+		padding-top: 22px;
+	}
+}
+p {
+	font-family: $font-family_1;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 18.75px;
+	margin-top: -12px;
+}
+.heart-icon {
+	display: flex;
+	position: relative;
+	width: 22px;
+	height: 21px;
+	top: -70px;
+	left: 325px;
+}
+.under-line {
+	border-bottom: 4px solid #99e2d0;
+	width: 14%;
+	top: 27px;
+	border-radius: 3px;
+	margin-bottom: 17px;
+}
+.card {
+	background-color: $background-color_3;
+	width: Fill (349px);
+	height: Fill (72px);
+	padding: 15px;
+	gap: 5px;
+	box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+	border-radius: 12px;
+}
+.price {
+	display: flex;
+	font-weight: 500;
+	padding-bottom: 5px;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.dish-info {
+	font-size: 15.04px;
+	font-weight: 300;
+}
+.tick {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	background-color: $background-color_4;
+	width: 3.688rem;
+	height: 69px;
+	padding-left: 290px;
+	border-radius: 15px, 15px, 0px;
+}
+.icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: $background-color_3;
+	width: 20px;
+	height: 20px;
+	top: 24.97px;
+	border-radius: 50%;
+}
+@media only screen and (min-width: 768px) {
+	.logo-header {
+		flex-direction: row;
+	}
+}

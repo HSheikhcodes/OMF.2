@@ -1,0 +1,87 @@
+* body {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  margin: 0%;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/****************************Oh-My-Food Logo****/
+
+.logo-header {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding: 0 30px;
+}
+
+/* ----Footer  ----*/
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #353535;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18.75px;
+  /* Add  width: 319px; - ASAP!----*/
+  height: 186px;
+  color: white;
+  /* Additional scss variables for colour - ASAP! ----*/
+}
+
+footer>h3 {
+  font-family: "Shrikhand", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.footer-title {
+  flex-direction: column;
+  display: flex;
+  transform: skew(-1deg);
+  font-weight: 500;
+  color: white;
+  /* Additional scss variables for colour - ASAP! ----*/
+  font-size: 16px;
+  padding-top: 12px;
+  padding-left: 13px;
+  line-height: 18.75px;
+
+}
+.footer-link a {
+  display: flex;
+  gap: 9px;
+  color: white;
+  /* Additional scss variables for colour - ASAP! ----*/
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+
+@media only screen and (min-width: 992px) { 
+  
+  .footer, .footer-link { 
+    padding: 64px 128px;
+    flex-direction:row;
+  }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+   .footer, 
+   .footer-link
+    { 
+    padding: 64px 128px;
+    flex-direction:row;
+     }
+    }
+  
